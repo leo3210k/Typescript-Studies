@@ -48,3 +48,18 @@ const funcionario = new Funcionario('Glaucia', 'Lemos', 'Developer Advocate');
 console.log(funcionario.apresentarPessoa());
 console.log(funcionario.retornarNomeCompleto());
 console.log(funcionario.retornarNome_02());
+
+// ==> Exemplo 03 Initialization Order
+class Base {
+  name = "base";
+  constructor() {
+    console.log("My name is " + this.name);
+  }
+}
+ 
+class Derived extends Base {
+  name = "derived";
+}
+ 
+// Prints "base", not "derived"
+const d = new Derived();
