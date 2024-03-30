@@ -18,7 +18,7 @@ cachorro.latir();
 cachorro.mover(10);
 cachorro.latir();
 
-// ==> Exemplo 02
+// ==> Exemplo 02 Overriding Methods
 class Pessoa {
   constructor(public nome: string, private sobrenome: string) {
     this.nome = nome;
