@@ -1,5 +1,14 @@
 export { };
 
+/*
+// Não pode ser instanciada
+// Classe projetada para ser derivada
+// Funcionalidades ou propriedades compartilhadas
+// em grupos de classes semelhantes
+// Podem ter implementações de função (ao contrário das interfaces)
+// Permite a reutilização de código entre grupos de objetos semelhantes
+*/
+
 abstract class Funcionario {
   constructor(private nome: string, private sobrenome: string) { }
 
