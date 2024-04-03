@@ -1,5 +1,8 @@
 export = {};
 
+// Combinação de vários tipos existentes
+// O novo tipo possui todas as características do tipo existente
+
 // ==> Exemplo 01 - Intersection Types:
 interface DadosBancarios {
   conta: number;
