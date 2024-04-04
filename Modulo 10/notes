@@ -1,0 +1,12 @@
+npm init -y
+npm i typescript
+tsc --init (Se não tiver o typescript instalado de forma global npm i -g typescript)
+npm i body-parser cross-env dotenv express helmet rimraf
+cross-env: nos ajudar a definir as variáveis de ambiente sem ter que se preocupar com a plataforma
+dotenv: vai carregar essas variáveis de ambiente
+helmet: vai adicionar uma segurança padrão quando estiver trabalhando com os verbos http
+rimraf: trabalhar com a plataforma cruzada com o node, se precisar excluir algumas cópias antigas do nosso dist diretório,
+podemos estar recompilando para um novo dist
+npm i @types/express @types/node
+Para fazer uso do express no typescript
+npm i --save-dev concurrently nodemon
